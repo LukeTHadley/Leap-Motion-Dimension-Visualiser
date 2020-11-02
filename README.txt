@@ -1,4 +1,4 @@
-# Leap Motion Dimensions Visualiser
+#Leap Motion Dimensions Visualiser
 ---
 
 by Luke T. Hadley (06/2020)
@@ -14,7 +14,7 @@ The project comes as a set up InteliJ project with the API .jar file inside the 
 The project was built around a Model 'LM-010' Leap Motion Controller, firmware revision '1.7.0', running software version '2.3.1+31549' on a Mac 'OS X 10.11.6' system.
 Although these constraints in itself will not hinder anybody's usage of this visualisation program, you may have to configure your system with the software version and API version
 
-### What the class does
+###What the class does
 
 The class takes an instance of a Leap Motion ```Controller``` object and displays a ```JFrame``` window displaying the reletive values of where the hand is in relation to the sensor.
 
@@ -26,7 +26,7 @@ The class takes an instance of a Leap Motion ```Controller``` object and display
 example. if you are using your right hand, and the sensor then picks up your left, it will only display the values reletive to your left hand untill it leaves the frame.
 
 
-### How it works/usage
+###How it works/usage
 
 The ```VisualiserFrame``` object has three public methods used to interact with it, all other methods are private and inside a wrapper class.
 
